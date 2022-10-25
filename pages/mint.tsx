@@ -30,7 +30,7 @@ const Mint: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Mint Clownies NFT's!</h1>
+      <h1 className={styles.h1}>Mint Clownies NFTs!</h1>
 
       <p className={styles.explain}>
         Mint one NFT from our <b>Clownies</b> NFT Collection.
