@@ -96,7 +96,7 @@ import {
 
     async function calculate(id: BigNumber){
       const nft = await nftDropContract.contract?.get(id);
-      const level = nft?.metadata.attributes?.0 : 0;
+      const level = nft?.metadata.attributes?.0 : 1;
       const calculate = await contract?.call("setLevel", level);
     }
   
