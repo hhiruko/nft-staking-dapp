@@ -29,7 +29,9 @@ const Mint: NextPage = () => {
   }
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ 
+      backgroundImage: 'url("frame.svg")'
+    }}>
       <h1 className={styles.h1}>Mint Clownies NFTs!</h1>
 
       <p className={styles.explain}>

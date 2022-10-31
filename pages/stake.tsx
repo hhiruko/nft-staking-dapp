@@ -113,7 +113,9 @@ import {
     }
   
     return (
-      <div className={styles.container}>
+      <div className={styles.container} style={{ 
+        backgroundImage: 'url("frame.svg")'
+      }}>
         <h1 className={styles.h1}>Stake Your Clownies</h1>
   
         <hr className={`${styles.divider} ${styles.spacerTop}`} />

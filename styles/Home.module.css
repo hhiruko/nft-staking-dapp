@@ -34,7 +34,7 @@
 }
 
 .container {
-  margin-top: 96px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,6 +45,7 @@
 }
 
 .page {
+  background-color: #cc25b3;
   width: inherit;
   border-radius: 20px;
   border: 1px solid var(--tw-color1);
@@ -139,7 +140,7 @@
   min-width: 3rem;
   font-size: 1rem;
   background: #e5e5ea;
-  background-image: linear-gradient(to right, #cc25b3 0%, #000000 101.52%);
+  background-image: linear-gradient(to right, #cc245a 0%, #e66603 101.52%);
   color: #fff;
   width: 180px;
   text-align: center;
@@ -151,6 +152,67 @@
   opacity: 0.8;
 }
 
+.mainButton2 {
+  cursor: pointer;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  line-height: 1.2;
+  font-weight: 600;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 8rem;
+  min-width: 3rem;
+  font-size: 1rem;
+  background: #e5e5ea;
+  background-image: linear-gradient(to right, #cc245a 0%, #e66603 101.52%);
+  color: #fff;
+  width: 400px;
+  text-align: center;
+  border-radius: 100px;
+  border-style: none;
+}
+
+.mainButton3 {
+  cursor: pointer;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  line-height: 1.2;
+  font-weight: 600;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 8rem;
+  min-width: 3rem;
+  font-size: 1rem;
+  background: #e5e5ea;
+  background-image: linear-gradient(to right, #84127a 0%, #6551ea 101.52%);
+  color: #fff;
+  width: 400px;
+  text-align: center;
+  border-radius: 100px;
+  border-style: none;
+}
+.mainButton3:hover {
+  opacity: 0.8;
+}
+.mainButton2:hover {
+  opacity: 0.8;
+}
 .ourCollection {
   font-size: 1.5rem;
   margin-bottom: 16px;
@@ -166,7 +228,9 @@
 }
 
 .h1 {
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 60px;
 }
 
 .explain {
