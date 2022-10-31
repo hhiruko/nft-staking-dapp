@@ -158,7 +158,7 @@ import {
             <hr className={`${styles.divider} ${styles.spacerTop}`} />
   
             <h2>Your Staked Clownies</h2>
-            <div className={styles.nftBoxGrid}>
+            <div className={styles.nftBoxGrid2}>
               {stakedNfts?.map((nft) => (
                 <div className={styles.nftBox} key={nft.metadata.id.toString()}>
                   <ThirdwebNftMedia
@@ -180,7 +180,7 @@ import {
   
             <h2>Your Unstaked Clownies</h2>
   
-            <div className={styles.nftBoxGrid}>
+            <div className={styles.nftBoxGrid2}>
               {ownedNfts?.map((nft) => (
                 <div className={styles.nftBox} key={nft.metadata.id.toString()}>
                   <ThirdwebNftMedia
